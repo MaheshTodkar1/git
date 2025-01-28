@@ -1,0 +1,32 @@
+  113  git commit -m "add testing file"
+  114  git status
+  115  ls
+  116  git rm test.py
+  117  ls
+  118  git status
+  119  git restore --staged test.py
+  120  ls
+  121  git status
+  122  git restore test.py
+  123  ls
+  124  git status
+  125  ls
+  126  touch demo.py
+  127  git status
+  128  git add demo.py
+  129  git status
+  130  ls
+  131  rm demo.py
+  132  k=ls
+  133  ls
+  134  git restore demo.py
+  135  ls
+  136  git status
+  137  git commit -m "demo first"
+  138  ls
+  139  top
+  140  ls
+  141  cd gitnew
+  142  ls
+  143  git status
+  144  history
